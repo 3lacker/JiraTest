@@ -1,0 +1,12 @@
+spring:
+    application:
+        name: TaskManager
+    datasource:
+        driver-class-name: org.postgresql.Driver
+        url: jdbc:postgresql://localhost:5431/Task?createDatabaseIfNotExist=true
+        username: Achraf
+        password: dYLSm3s2JExbX6H6i6AnkqKeM3YO
+    jpa:
+        database-platform: org.hibernate.dialect.PostgreSQLDialect
+        hibernate:
+            ddl-auto: update
